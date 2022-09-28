@@ -25,3 +25,19 @@ git push -u origin master # 将本地仓库推送到远程仓库， -u代表设�
 git clone https://github.com/HuTuTu666/gitPractice.git # 克隆
 git clone https://github.com/HuTuTu666/gitPractice.git myPro # 克隆仓库到指定文件夹
 ```
+
+## 分支
+
+```
+git branch # 列出本地分支
+git branch -r # 列出远端分支
+git branch -a# 列出所有分支
+git branch [branch] # 新建branch分支
+git --set-upstream [branch] origin [branch] # 将本地branch分支与远端branch分支建立连接
+git branch -m [old] [new] # 将old分支重命名为new分支
+git branch -d [branch] # 删除branch分支
+git branch -D [branch] # 强制删除branch分支
+git checkout [branch] # 切换到branch分支
+git checkout -b [branch] # 新建branch分支并切换到branch分支
+git checkout -b test dev # 基于dev分支新建test分支，并切换
+```
