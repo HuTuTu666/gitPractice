@@ -59,3 +59,10 @@ git checkout -b [branch] # 新建branch分支并切换到branch分支
 
 git checkout -b test dev # 基于dev分支新建test分支，并切换
 ```
+
+## 分支合并
+
+```
+当在不同分支对同一个文件的同一位置进行不同修改时，合并会出现冲突
+
+```
