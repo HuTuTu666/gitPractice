@@ -1,2 +1,3 @@
 master: 新建gitPractice仓库
 b1: 新建b1分支
+b2: 新建b2分支
