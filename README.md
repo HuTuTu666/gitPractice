@@ -64,5 +64,5 @@ git checkout -b test dev # 基于dev分支新建test分支，并切换
 
 ```
 当在不同分支对同一个文件的同一位置进行不同修改时，合并会出现冲突
-git merge [branch] # 将所在分支与branch分支合并，当前分支落后于branch分支才能合并
+git merge [branch] # 将所在分支与branch分支合并
 ```
